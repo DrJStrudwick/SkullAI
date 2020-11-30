@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T21:08:26.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="xVnmjd4w2yVBrIPYcNVV" version="13.10.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T15:52:19.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="mIkd7Vd2kP-m4RLh3-UV" version="13.10.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1186" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,19 @@
         <mxCell id="cCdzx9bcMSn07fCNwQ6w-36" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cCdzx9bcMSn07fCNwQ6w-35">
           <mxGeometry x="0.1364" y="-1" relative="1" as="geometry">
             <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cCdzx9bcMSn07fCNwQ6w-7" target="cCdzx9bcMSn07fCNwQ6w-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="230" />
+              <mxPoint x="250" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-94" value="Forced to bet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cCdzx9bcMSn07fCNwQ6w-93">
+          <mxGeometry x="-0.6645" y="-2" relative="1" as="geometry">
+            <mxPoint x="-38" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cCdzx9bcMSn07fCNwQ6w-7" value="Do I bet?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
