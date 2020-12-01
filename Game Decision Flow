@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T15:52:19.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="mIkd7Vd2kP-m4RLh3-UV" version="13.10.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-01T09:47:55.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="ypeOAO59YZZQlt_qR2fg" version="13.10.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1186" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,13 +264,22 @@
         <mxCell id="cCdzx9bcMSn07fCNwQ6w-70" value="What did they have?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="562.5" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="cCdzx9bcMSn07fCNwQ6w-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cCdzx9bcMSn07fCNwQ6w-75" target="cCdzx9bcMSn07fCNwQ6w-65">
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cCdzx9bcMSn07fCNwQ6w-95" target="cCdzx9bcMSn07fCNwQ6w-65">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="670" y="760" />
               <mxPoint x="670" y="800" />
               <mxPoint x="120" y="800" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-97" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cCdzx9bcMSn07fCNwQ6w-80">
+          <mxGeometry x="-0.7333" y="-1" relative="1" as="geometry">
+            <mxPoint x="30" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cCdzx9bcMSn07fCNwQ6w-75" target="cCdzx9bcMSn07fCNwQ6w-95">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cCdzx9bcMSn07fCNwQ6w-75" value="Remove tile at random" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="630" width="120" height="40" as="geometry" />
@@ -299,6 +308,20 @@
         </mxCell>
         <mxCell id="cCdzx9bcMSn07fCNwQ6w-91" value="Place initial tile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cCdzx9bcMSn07fCNwQ6w-95" target="cCdzx9bcMSn07fCNwQ6w-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-100" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cCdzx9bcMSn07fCNwQ6w-99">
+          <mxGeometry x="0.32" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-95" value="do i have tiles remaining?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cCdzx9bcMSn07fCNwQ6w-98" value="You&#39;re out of the game" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="695" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
