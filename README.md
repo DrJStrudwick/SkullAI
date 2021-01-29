@@ -32,8 +32,8 @@ Table of contents
 ## Main content
 I plan on writing a full sphinx documentation on each of the functions within the classes that I have defined & created. But for now here are the key components.
 
-'skullPlayer' is the main class that encompasses all the functionality that would need to be done from a player. These are our players. There are some internal variables that are only initiated when the players are inserted into a game, such as the current game they are apart of, the state of the game, the current bet status and the picking record of the seeker. No variables are required upon construction.
+- `skullPlayer` is the main class that encompasses all the functionality that would need to be done from a player. These are our players. There are some internal variables that are only initiated when the players are inserted into a game, such as the current game they are apart of, the state of the game, the current bet status and the picking record of the seeker. No variables are required upon construction.
 
-'skullGame' is the main class that runs and operates the game. Upon construction this requires 4 skullPlayer's who are the players of the game. In initialisation it will assign the variables that need to be set within the players. The function 'playGame()' will play the game with the 4 given players and the winner will be stored in the variable 'winner'
+- `skullGame` is the main class that runs and operates the game. Upon construction this requires 4 skullPlayer's who are the players of the game. In initialisation it will assign the variables that need to be set within the players. The function `playGame()` will play the game with the 4 given players and the winner will be stored in the variable `winner`
 
-'skullTrainer' is the class that does the whole proceedure. Creating the players, creating and playing the games, then creating the next generation & repeating. This is initiate by the function 'train()'. At the end of the training the surviving/winning players will be found in the 'populationList' variable.
+- `skullTrainer` is the class that does the whole proceedure. Creating the players, creating and playing the games, then creating the next generation & repeating. This is initiate by the function `train()`. At the end of the training the surviving/winning players will be found in the `populationList` variable.
