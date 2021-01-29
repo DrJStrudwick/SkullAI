@@ -1,6 +1,8 @@
 # SkullAI
 This git repo is for developing an AI to play the boardgame Skull. Note that I did not create the game, nor do I own any rights to it. I am simply creating an AI to play the game for fun/the challenge of doing so.
 
+This work is also available as a docker image: *jstrud/skullai:latest*
+
 TLDR: skullAIV2.ipynb ([link](skullAIV2.ipynb)) is the main python file you will need and winningPlayers1.pickle ([link](winningPlayers1.pickle)) is the file with the saved winners from the first run.
 
 Table of contents
