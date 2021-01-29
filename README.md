@@ -30,3 +30,7 @@ Table of contents
 - [winning players](winningPlayers1.pickle): This is a pickle file saving the winning 4 players after my first run through of the genetic evolution training.
 ***
 ## Main content
+I plan on writing a full sphinx documentation on each of the functions within the classes that I have defined & created. But for now here are the key components.
+- 'skullPlayer'
+- 'skullGame'
+- 'skullTrainer' 
